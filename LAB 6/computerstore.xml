@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="computerstore.xsl"?>
+<!DOCTYPE musicstore SYSTEM "computerstore.dtd">
+<computerstore>
+  
+<computer>
+  <product_id>001</product_id>
+  <product_name>Cabinet</product_name>
+  <quantity>510</quantity>
+  <mfd>2019</mfd>
+  <price>1050</price>
+</computer>
+<computer>
+  <product_id>002</product_id>
+  <product_name>Mouse</product_name>
+  <quantity>200</quantity>
+  <mfd>2021</mfd>
+  <price>250</price>
+</computer>
+<computer>
+  <product_id>003</product_id>
+  <product_name>Keyboard</product_name>
+  <quantity>250</quantity>
+  <mfd>2021</mfd>
+  <price>850</price>
+</computer>
+<computer>
+  <product_id>004</product_id>
+  <product_name>Monitor</product_name>
+  <quantity>140</quantity>
+  <mfd>2020</mfd>
+  <price>5000</price>
+</computer>
+<computer>
+  <product_id>005</product_id>
+  <product_name>Mouse Pad</product_name>
+  <quantity>200</quantity>
+  <mfd>2020</mfd>
+  <price>100</price>
+</computer>
+<computer>
+  <product_id>006</product_id>
+  <product_name>VGA Cable</product_name>
+  <quantity>150</quantity>
+  <mfd>2019</mfd>
+  <price>170</price>
+</computer>
+<computer>
+  <product_id>007</product_id>
+  <product_name>PSU</product_name>
+  <quantity>330</quantity>
+  <mfd>2020</mfd>
+  <price>2220</price>
+</computer>
+<computer>
+  <product_id>008</product_id>
+  <product_name>Pendrive</product_name>
+  <quantity>200</quantity>
+  <mfd>2018</mfd>
+  <price>450</price>
+</computer>
+<computer>
+  <product_id>009</product_id>
+  <product_name>External HDD</product_name>
+  <quantity>50</quantity>
+  <mfd>2019</mfd>
+  <price>3500</price>
+</computer>
+<computer>
+  <product_id>010</product_id>
+  <product_name>Headphone</product_name>
+  <quantity>300</quantity>
+  <mfd>2021</mfd>
+  <price>2800</price>
+</computer>
+
+</computerstore>

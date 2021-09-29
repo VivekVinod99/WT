@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT computerstore (computer+)>
+<!ELEMENT computer (product_id,product_name,quantity,price,company,type,price)>
+<!ELEMENT product_id (#PCDATA)>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
