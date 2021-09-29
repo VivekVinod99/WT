@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet"> 
+    <title>CoWIN</title>
+</head>
+<body>
+    <header>
+        <div class="main-nav">
+            <div class="container">
+                <ul>
+                    <li style="float: left;"><a href="index.html" style="padding: 0; margin: 0;"><img src="res/img/emblem.png" alt="emblem" style="height: 40px; padding-top: 10px;"></a></li>
+                    <li style="float: left; width: 150px; margin: 5px 0 0 10px;"><a href="index.html" style="padding: 0; margin: 0; text-align: left; font-weight: 300;">Ministry of Health and Family Welfare</a></li>
+                    <li><a>Verify Certificate</a></li>
+                    <li><a>Dashboard</a></li>
+                    <li><a>Skip to Main Content</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-2 one-edge-shadow">
+            <div class="container">
+                <ul>
+                    <li style="float: left;"><a href="index.html" style="padding: 0; margin: 0;"><img src="res/img/covid19logo.jpg" alt="emblem" style="height: 50px;padding: 0 ! important;"></a></li>
+                    <li id="register-btn"><a>REGISTER / SIGN IN</a></li>
+                    <li><a>Support</a></li>
+                    <li><a>Resources</a></li>
+                    <li><a>Platforms</a></li>
+                    <li><a>Vaccination Services</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <section>
+        <div class="box">
+            <div class="row">
+                <img src="res/img/form-logo.svg" alt="logo" id="form-logo">
+            </div>
+            <div class="row">
+                <h1>CoWIN Registration Form</h1>
+            </div>
+            <div class="row">
+                <input type="text" name="fname" id="fname" placeholder="First Name">
+            </div>
+            <div class="row">
+                <input type="text" name="lname" id="lname" placeholder="Last Name">
+            </div>
+            <div class="row">
+                <input type="text" name="" id="" placeholder="Email address">
+            </div>
+            <div class="row">
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="your phone number"> 
+            </div>
+            <div class="row">
+                <input type="number" name="age" id="" placeholder="Age">
+            </div>
+            <div class="row label-row">
+                <p>Select Date of Birth:</p>
+            </div>
+            <div class="row">
+                <input type="date" name="dateofbirth" id="dateofbirth">
+            </div>
+            <div class="row label-row">
+                <p>Select gender:</p>
+            </div>
+            <div class="row gender">
+                <div class="radio">
+                    <input id="male" name="radio" type="radio" checked>
+                    <label for="male" class="radio-label">Male</label>
+                </div>
+                <div class="radio">
+                    <input id="female" name="radio" type="radio">
+                    <label  for="female" class="radio-label">Female</label>
+                </div>
+                <div class="radio">
+                    <input id="other" name="radio" type="radio">
+                    <label  for="other" class="radio-label">Other</label>
+                </div>
+            </div>
+            <div class="row label-row">
+                <p>Select vaccination doses taken:</p>
+            </div>
+            <div class="row doses">
+                <div class="checkbox">
+                    <input type="checkbox" id="dose1" name="dose1" value="dose1">
+                    <label for="dose1" class="check-label"> Dose 1</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="dose2" name="dose2" value="dose2">
+                    <label for="dose2" class="check-label"> Dose 2</label>
+                </div>
+            </div>
+            <div class="row">
+                <select name="state" id="state" class="dropdown">
+                    <option disabled selected value> -- Select your state -- </option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                    </select>
+            </div>
+            <div class="row">
+                <input type="button" value="REGISTER">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="footer-content">
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2021 CoWIN. All Rights Reserved </p>
+                </div>
+                <div class="privacy">
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="terms">
+                    <p>Terms of Service</p>
+                </div>
+                <div class="discharge">
+                    <a href="policy.html"><p>Discharge Policy</p></a>
+                </div>
+                <div class="guidelines">
+                    <a href="guide.html"><p>COVID-19 Guidelines</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
