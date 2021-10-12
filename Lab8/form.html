@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login/Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <section>
+    <div class="container">
+      <div class="user signinBx">
+        <div class="imgBx"><img src="images/img1.png" alt="" /></div>
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h2>Sign In</h2>
+            <input type="text" name="" placeholder="Username" />
+            <input type="password" name="" placeholder="Password" />
+            <input type="submit" name="" value="Login" />
+            <p class="signup">
+              Don't have an account ?
+              <a href="#" onclick="toggleForm();">Sign Up.</a>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="user signupBx">
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h2>Create an account</h2>
+            <input type="text" name="" placeholder="Username" />
+            <input type="email" name="" placeholder="Email Address" />
+            <select>
+              <option value="0">Gender:</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Transgender</option>
+              <option value="4">Gender Varient</option>
+              <option value="5">Prefer not to disclose</option>
+              <option value="6">Not Listed</option>
+            </select>
+            <label for="start">D.O.B</label>
+
+            <input type="date" id="start" name="trip-start"
+               value="DOB"
+            />
+            <input type="password" name="" placeholder="Create Password" />
+            <input type="password" name="" placeholder="Confirm Password" />
+            <input type="submit" name="" value="Sign Up" />
+            <p class="signup">
+              Already have an account ?
+              <a href="#" onclick="toggleForm();">Sign in.</a>
+            </p>
+          </form>
+        </div>
+        <div class="imgBx"><img src="images/img2.jpg" alt="" /></div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    const toggleForm = () => {
+  const container = document.querySelector('.container');
+  container.classList.toggle('active');
+};
+  </script>
+</body>
+</html>
