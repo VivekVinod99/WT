@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+h1{
+  width: 375px;
+  height: 80px;
+  font-size: 50px;
+  font-stretch: ultra-expanded;
+  font-weight: bold;
+  position: absolute;
+  left: 600px;
+  top: 20px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  margin: 0 auto;
+  color: #1C2833;
+  
+    -webkit-transition: 
+    background-color 700ms linear,
+         color 700ms linear;
+  }
+
+h1:hover { 
+  background:   #000000;
+  color: #FFFFFF;
+  }
+
+h1 span{
+  width: 375px;
+  height: 80px;
+  font-size: 50px;
+  font-stretch: ultra-expanded;
+  font-weight: bold;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  margin: 0 auto;
+  color: #1C2833;
+  
+    -webkit-transition: 
+    background-color 700ms linear,
+         color 700ms linear;
+  }
+
+h1 span:hover { 
+  background:   #000000;
+  color: #FFFFFF;
+  }  
+
+h2{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  left: 1430px;
+  top: 10px;
+  align-content: center;
+  color: #FFFFFF;
+  margin: 1em 2em 0 0;
+  font-weight: 700;
+}  
+
+h3{
+  text-align: center;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  animation: changeBackgroundColor 15s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #943126;
+  }
+  10% {
+    background-color: #633974;
+  }
+  20% {
+    background-color: #5B2C6F;
+  }
+  30% {
+    background-color: #1A5276;
+  }
+  40% {
+    background-color: #21618C;
+  }
+  50% {
+    background-color: #117864;
+  }
+  60% {
+    background-color: #0E6655;
+  }
+  70% {
+    background-color: #196F3D;
+  }
+  80% {
+    background-color: #1D8348;
+  }
+  90% {
+    background-color: #F1C40F;
+  }
+  100% {
+    background-color: #D35400;
+  }
+}
+
+.p-one{
+  color: #FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  left: 530px;
+  top: 200px;
+  font-family: 'Lobster' , cursive;
+}
+
+.p-two{
+  color: #FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  left: 280px;
+  top: 250px;
+  font-family: 'Lobster' , cursive;
+}
+
+.p-three{
+  color: #FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  left: 680px;
+  top: 300px;
+  font-family: 'Lobster' , cursive;
+}
+
+.canon{
+  height: 15px;
+  width: 70px;
+  position: fixed;
+  bottom: 15px; right: 25px;
+}
+
+.nvidia{
+  height: 50px;
+  width: 120px;
+  position: fixed;
+  bottom: 15px; right: 90px;
+  transform: rotate(10deg);
+}
+
+.intel{
+  height: 35px;
+  width: 90px;
+  position: fixed;
+  bottom: 70px; right: 15px;
+  transform: rotate(-10deg);
+
+}
+
+.acer{
+  height: 25px;
+  width: 65px;
+  position: fixed;
+  bottom: 80px; right: 110px;
+}
+
+.products{
+  color: #FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  left: 250px;
+  top: 400px;
+  font-family: 'Montserrat' , cursive;
+}
+
+.list{
+  color: #FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  font-family: 'Montserrat' , cursive;
+}
+
+
+  
+
