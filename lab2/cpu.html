@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+</style>
+</head>
+<body bgcolor="#FFFFCC">
+
+<div>
+  <h1>CPU</h1>
+  <p>A power supply is an electrical device that supplies electric power to an electrical load. The primary function of a power supply is to convert electric current from a source to the correct voltage, current, and frequency to power the load.<br>
+  <a target="_blank" href="https://en.wikipedia.org/wiki/Central_processing_unit"><b>"For more information"</b></a> link.</p>
+  
+
+<center><img id="scream" src="cpu.jpg" alt="The Scream" width="220" height="277"></center>
+
+
+
+
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+<style>
+img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 232px;
+}
+</style>
+<img src="cpu parts.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  
+  
+<area shape="poly" coords="130,147,200,107,254,219,130,228"
+          href="ram.html"
+          target="_blank" alt="HTML" />
+    <area shape="poly" coords="130,147,130,228,6,219,59,107"
+          href="mb.html"
+          target="_blank" alt="CSS" />
+    <area shape="poly" coords="150,130,147,200,107,130,4,59,107"
+          href="ps.html"
+          target="_blank" alt="JavaScript" />
+</map>
+
+
+<center><iframe src="table.html" height="200" width="800" title="Iframe Example"></iframe></center>
+
+
+<center>
+<p><center>Cpu Image</p>
+<canvas id="myCanvas" width="250" height="300"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<p><center><button onClick="myCanvas()">Show</button></p>
+
+<script>
+function myCanvas() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("scream");
+  ctx.drawImage(img,10,10);
+}
+</script>
+</center>
+
+
+ 
+</div><br>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+<center><a href="reg.html" target="_blank">Purchace</a></center>
+<br><a href="lab1.html">Back</a></br>
+
+</body>
+</html>
